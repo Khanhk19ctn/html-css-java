@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script type="text/javascript">
+            function Q1(){
+                alert("Hello world!")
+            }
+        </script>
+        <script>
+            function Q2() {
+              document.write("Hello World!");
+            }
+            </script>
+        <script>
+            console.log("Hello world!");
+            </script>
+        <script>
+            function Q4() {
+            confirm("Bạn có đồng ý yêu không?");
+            }
+        </script>
+        <script >
+            function Q5(){
+                alert("Academy VTI!")
+            }
+        </script>
+        <script Language="Javascript" TYPE="text/Javascript">
+            function Q6(){
+    
+            var name
+            
+            var age
+            
+            name=prompt("Nhập tên của bạn :","Tên của bạn")
+            
+            age=prompt("Nhập tuổi của bạn :","Tuổi của bạn")
+            
+            document.write("Chào bạn:" + name)
+            document.write("Tuổi của bạn là:" + age)
+            }
+            
+        </script>
+        <script Language="Javascript" TYPE="text/Javascript">
+            function Q7(){
+                
+                var my_time = new Date();
+                alert(my_time)
+                
+                // var h = today.getHours();
+                // var m = today.getMinutes();
+                // alert("Bây giờ là:" + h+"giờ"+ m +"phút")
+            }
+        </script>
+        <script Language="Javascript" TYPE="text/Javascript">
+            function Q8(){
+            const myself = {Name:"VTI Accademy", Gender:"Male", email:"vtiaccademy@vti.com.vn"};
+            document.write("Name:"+ myself.Name)
+            document.write("Gender:"+ myself.Gender)
+            document.write("Email:"+ myself.email)
+            }
+            
+        </script>
+
+
+        
+
+
+    </head>
+    <body>
+        <p>Q1</p>
+        <form>
+            <input type="button" value="Click here" onclick="Q1();"/>
+        </form>
+        <p>Q2</p>
+        <button type="button" onclick="Q2()">Click me!</button>
+        <p>Q4</p>
+        <button onclick="Q4()">Say Love!</button>
+        <p>Q5</p>
+        
+        <input type="text" required= "true" class="form-control" id="name" value="" placeholder="Enter your name">
+        <button type="submit" onclick="Q5()">Click here</button>
+        <p>Q6</p>
+        <button type="button" onclick="Q6()">Click me!</button>
+        <p>Q7</p>
+        <button type="button" onclick="Q7()">Time now!</button>
+        <p>Q8</p>
+        <button type="button" onclick="Q8()">Object!</button>
+
+
+    </body>
+</html>

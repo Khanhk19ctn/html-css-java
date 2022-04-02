@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        h1{
+            margin-left: 200px;
+            margin-bottom: 30px;
+        }
+    </style>
+    <style>
+        .boundary{
+            width: 800px;
+            height:200px ;
+            padding: 30px 0;
+            border: 1px solid black;
+            margin-left: 200px;
+
+        }
+    </style>
+    <style>
+        #TO-DOS{
+            width: 400px;
+            height:20px;
+            margin-left: 100px;
+            border: 1px solid black;
+            margin-top: 20px;
+        }       
+    </style>
+    <style>
+        .submit-add{
+            width: 80px;
+            height: 25px; 
+            background-color: royalblue;
+            margin-left: 30px;
+       }
+    </style>
+
+
+</head>
+<body>
+    <div class="boundary">
+        <h1> WORK TO-DOS</h1>
+        
+        <div class="form-group">
+            
+
+            <input type="text" required="true" class="input-form" id="TO-DOS" value="" 
+            style='background-color:rgb(228, 211, 155) ; '> 
+            <input type="button" class="submit-add" onclick="AddTODO()" value="Add">
+            
+            
+        </div> 
+
+</body>
